@@ -1,17 +1,28 @@
-<<source src="http://ubradio.duckdns.org:9000/stream" type="audio/mpeg">!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>UB Radio – The Panther’s Voice</title>
+<style>
+body{
+background:black;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+audio{
+margin-top:20px;
+}
+</style>
 </head>
 
-<body style="background:black;color:white;text-align:center;font-family:Arial;">
+<body>
 
 <h1>UB Radio – The Panther’s Voice</h1>
 
-<p>Live Internet Radio</p>
+<h3>Live Internet Radio</h3>
 
-<audio controls style="width:300px;">
-  <source src="http://[2603:3005:402f:400::3c88]:9000/stream" type="audio/mpeg">
+<audio controls autoplay>
+<source src="http://ubradio.duckdns.org:9000/stream" type="audio/mpeg">
 </audio>
 
 <p>Mainstream Development Broadcasting</p>
